@@ -1,0 +1,39 @@
+body{
+    background-color: pink;
+}
+button {
+    background-color: #ff5a5a;
+    color: #660066;
+    padding: 20px 50px;
+    border-radius: 50px;
+    font-size: 2em;
+    font-weight: bolder;
+    font-style: italic;
+
+    -webkit-transition: height 0.5s linear;
+        -moz-transition: height 0.5s linear;
+         -ms-transition: height 0.5s linear;
+          -o-transition: height 0.5s linear;
+             transition: height 0.5s linear;
+}
+.container {
+    height: 35rem;
+    position: relative;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+h1 {
+    display: none;
+    -webkit-transition: height 0.5s linear;
+       -moz-transition: height 0.5s linear;
+        -ms-transition: height 0.5s linear;
+         -o-transition: height 0.5s linear;
+            transition: height 0.5s linear;
+}
