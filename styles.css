@@ -9,12 +9,6 @@ button {
     font-size: 2em;
     font-weight: bolder;
     font-style: italic;
-
-    -webkit-transition: height 0.5s linear;
-        -moz-transition: height 0.5s linear;
-         -ms-transition: height 0.5s linear;
-          -o-transition: height 0.5s linear;
-             transition: height 0.5s linear;
 }
 .container {
     height: 35rem;
@@ -31,9 +25,7 @@ button {
   }
 h1 {
     display: none;
-    -webkit-transition: height 0.5s linear;
-       -moz-transition: height 0.5s linear;
-        -ms-transition: height 0.5s linear;
-         -o-transition: height 0.5s linear;
-            transition: height 0.5s linear;
+}
+span {
+    display: none;
 }
